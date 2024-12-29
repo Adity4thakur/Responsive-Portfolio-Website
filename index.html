@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio Website</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts Popins -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avtar-box">
+                    <img src="./assets/images/profile-pic.png" alt="my-image" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Aditya Thakur"> Aditya Thakur</h1>
+                    <p class="title">React Developer</p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Content</span>
+                    <ion-icon name="chevron-down">
+                    </ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a class="contact-link" href=" mailto:923adithakur@gmail.com">Contact Me</a>
+
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+919284896813">+91 92848 96813</a>
+
+
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">LinkedIn</p>
+                            <a href="https://www.linkedin.com/in/aditya-thakur-660114233/" target="_blank">Visit My
+                                LinkedIn</a>
+                        </div>
+                    </li>
+                    <!-- <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <a href="#" id="locationLink" target="_blank">View My Location</a>
+                        </div>
+                    </li> -->
+
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/yourusername" class="social-list" target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/yourusername" class="social-link" target="_blank">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/yourusername" class="social-link" target="_blank">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </aside>
+        <!-- Main content -->
+        <div class="main-content">
+            <!-- nav - bar -->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link " data-nav-link>Resume</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link " data-nav-link>portfolio</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link " data-nav-link>Blog</button>
+                    </li>
+                </ul>
+            </nav>
+            <!-- About Us -->
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About Me</h2>
+
+                </header>
+                <!-- <p class="section-subtitle">Full Stack Developer</p> -->
+                <section class="about-text">
+                    <p>I'm skilled in React.js, Spring Boot, and MySQL. I have a strong background in development
+                        with a focus on code quality and performance optimization. I
+                        create efficient web services
+                        using RESTful architecture and excel at translating requirements into technical specs.
+                        Proficient in Java, React.js, Spring
+                        Framework, Spring Boot, and MySQL, I thrive in collaborative, innovative environments. </p>
+                    <p>I'm a full-stack developer with a passion for creating exceptional web experiences.</p>
+                </section>
+
+                <!-- service   -->
+                <section class="service">
+                    <h3 class="h3 service-title">What I do</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-design.svg" alt="dessign icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text"> The mordern and responsive website design by
+                                    prfesional level.</p>
+                            </div>
+
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/web-development-1869191-1581618.png?f=webp&w=256"
+                                    alt="dessign icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text"> I used React.js and CSS HTML OR JAVASCRIPT to build
+                                    frontend
+                                    services.</p>
+                            </div>
+
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/backend-10095423-8175047.png?f=webp&w=256"
+                                    alt=" dessign icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Beckend development</h4>
+                                <p class="service-item-text"> I used Spring Boot and Node.js and MySQL and MongoDB to
+                                    build
+                                    backend
+                                    services.</p>
+                            </div>
+
+                        </li>
+                    </ul>
+                </section>
+                <!-- Testimonials -->
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+                    <ul class="testimonials-list has-scrollbar">
+                        <!-- Testimonial List with Scrollbar -->
+                        <ul class="testimonials-list has-scrollbar">
+                            <!-- First Testimonial for Ankit Kosankar -->
+                            <li class="testimonials-item">
+                                <div class="content-card" data-tesimonials-item>
+                                    <figure class="testimonials-avatar-box">
+                                        <!-- Avatar Image -->
+                                        <img src="./assets/images/ankit.png" alt="user 1" width="60"
+                                            data-tesimonials-item-acatar />
+                                        <!-- Name -->
+                                        <h4 class="h4 testimonials-item-title" data-tesimonials-title>Ankit Kosankar
+                                        </h4>
+                                        <!-- Testimonial Text -->
+                                        <div class="testimonials-text" data-tesimonials-text>
+                                            <p>
+                                                Ankit and I successfully collaborated on a ReactJS and Spring Boot
+                                                project, blending his
+                                                exceptional frontend skills with my backend expertise. His dedication,
+                                                problem-solving, and focus
+                                                on creating a seamless user experience were commendable. Together, we
+                                                built a robust
+                                                application, fostering effective teamwork and delivering an outstanding
+                                                result.
+                                            </p>
+                                        </div>
+                                    </figure>
+                                </div>
+                            </li>
+                            <!-- Second Testimonial for Neeraj Shukla -->
+                            <li class="testimonials-item">
+                                <div class="content-card" data-tesimonials-item>
+                                    <figure class="testimonials-avatar-box">
+                                        <!-- Avatar Image -->
+                                        <img src="./assets/images/neraj.png" alt="user 1" width="60"
+                                            data-tesimonials-item-acatar />
+                                        <!-- Missing: Update 'alt' attribute to reflect the correct user's name -->
+                                        <!-- Corrected alt example: alt="Neeraj Shukla" -->
+                                        <!-- Name -->
+                                        <h4 class="h4 testimonials-item-title" data-tesimonials-title>Neeraj Shukla</h4>
+                                        <!-- Testimonial Text -->
+                                        <div class="testimonials-text" data-tesimonials-text>
+                                            <p>
+                                                I had the privilege of developing a ReactJS project with Neeraj Shukla,
+                                                which was a valuable
+                                                learning experience. Neeraj's expertise and collaborative approach
+                                                enhanced my technical
+                                                knowledge, especially in building efficient and dynamic user interfaces.
+                                                Working together was
+                                                both productive and enriching, resulting in a successful and rewarding
+                                                project.
+                                            </p>
+                                        </div>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li class="testimonials-item">
+                                <div class="content-card" data-tesimonials-item>
+                                    <figure class="testimonials-avatar-box">
+                                        <!-- Avatar Image -->
+                                        <img src="./assets/images/prateek.png" alt="user 1" width="60"
+                                            data-tesimonials-item-acatar />
+                                        <!-- Missing: Update 'alt' attribute to reflect the correct user's name -->
+                                        <!-- Corrected alt example: alt="Neeraj Shukla" -->
+                                        <!-- Name -->
+                                        <h4 class="h4 testimonials-item-title" data-tesimonials-title>Pratik Mansata
+                                        </h4>
+                                        <!-- Testimonial Text -->
+                                        <div class="testimonials-text" data-tesimonials-text>
+                                            <p>
+                                                I had the pleasure of collaborating with Pratik Mansata on a project
+                                                utilizing HTML, CSS, JavaScript, and Bootstrap. Together, we developed a
+                                                visually appealing, responsive design and ensured efficient
+                                                functionality. Pratik's expertise and commitment were inspiring. We
+                                                successfully completed the project and uploaded it to GitHub, showcasing
+                                                our teamwork and technical skills.
+                                            </p>
+                                        </div>
+                                    </figure>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- Missing: 'has-scrollbar' class is not explicitly applied in this list if the context requires it. -->
+
+
+                    </ul>
+                </section>
+                <!-- Testimonials model -->
+
+                <div class="model-container" data-model-container>
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-model">
+                        <button class="model-close-btn" data-model-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                        <!-- Add your model content here -->
+                        <div class="model-img-wrapper">
+                            <figure class="model-avatar-box">
+                                <img src="./assets/images/ankit.png" alt="ankit software developer" width="80"
+                                    data-model-img />
+                            </figure>
+                            <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+                        </div>
+                        <div class="model-content">
+                            <h4 class="h3 model-title" data-model-title>
+                                Ankit Kosankar
+                            </h4>
+                            <time datetime="2023-07-20">Jun 20, 2023</time>
+                            <div data-model-text>
+                                <p>
+                                    I had the pleasure of collaborating with Ankit Kosankar on a project utilizing HTML,
+                                    CSS,
+                                    JavaScript, and Bootstrap. Together, we developed a visually appealing, responsive
+                                    design
+                                    and ensured efficient functionality. Ankit's expertise and commitment were
+                                    inspiring. We
+                                    successfully completed the project and uploaded it to GitHub, showcasing our
+                                    teamwork
+                                    and
+                                    technical skills.
+                                </p>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <!-- client session -->
+                <!-- <section class="clients">
+                    <h3 class="h3 clients-title">Clients</h3>
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-items">
+                            <img src="./assets/images/logo-1-color.png" alt="client 1" width="60">
+                        </li>
+                        <li class="clients-items">
+                            <img src="./assets/images/logo-5-color.png" alt="client 1" width="60">
+                        </li>
+                        <li class="clients-items">
+                            <img src="./assets/images/logo-2-color.png" alt="client 2" width="60">
+                        </li>
+                        <li class="clients-items">
+                            <img src="./assets/images/logo-3-color.png" alt="client 3" width="60">
+                        </li>
+                        <li class="clients-items">
+                            <img src="./assets/images/logo-4-color.png" alt="client 4" width="60">
+                        </li>
+                    </ul>
+
+                </section> -->
+
+            </article>
+            <!-- Resume of Aditya -->
+            <article class="resume" data-page="resume">
+                <h2 class="h3 article-title">Resume</h2>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Technology </h4>
+                            <span>2017-2020</span>
+                            <p class="timeline-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id tempore reiciendis, placeat
+                                facere sed vero? Commodi consequuntur error veniam, voluptatum cum ipsum pariatur
+                                dignissimos saepe consectetur, amet, incidunt laborum maxime!
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Technology </h4>
+                            <span>2017-2020</span>
+                            <p class="timeline-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id tempore reiciendis, placeat
+                                facere sed vero? Commodi consequuntur error veniam, voluptatum cum ipsum pariatur
+                                dignissimos saepe consectetur, amet, incidunt laborum maxime!
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Technology </h4>
+                            <span>2017-2020</span>
+                            <p class="timeline-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id tempore reiciendis, placeat
+                                facere sed vero? Commodi consequuntur error veniam, voluptatum cum ipsum pariatur
+                                dignissimos saepe consectetur, amet, incidunt laborum maxime!
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Technology </h4>
+                            <span>2017-2020</span>
+                            <p class="timeline-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id tempore reiciendis, placeat
+                                facere sed vero? Commodi consequuntur error veniam, voluptatum cum ipsum pariatur
+                                dignissimos saepe consectetur, amet, incidunt laborum maxime!
+                            </p>
+                        </li>
+                    </ol>
+
+                </section>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Technology </h4>
+                            <span>2017-2020</span>
+                            <p class="timeline-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id tempore reiciendis, placeat
+                                facere sed vero? Commodi consequuntur error veniam, voluptatum cum ipsum pariatur
+                                dignissimos saepe consectetur, amet, incidunt laborum maxime!
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Technology </h4>
+                            <span>2017-2020</span>
+                            <p class="timeline-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id tempore reiciendis, placeat
+                                facere sed vero? Commodi consequuntur error veniam, voluptatum cum ipsum pariatur
+                                dignissimos saepe consectetur, amet, incidunt laborum maxime!
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Technology </h4>
+                            <span>2017-2020</span>
+                            <p class="timeline-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id tempore reiciendis, placeat
+                                facere sed vero? Commodi consequuntur error veniam, voluptatum cum ipsum pariatur
+                                dignissimos saepe consectetur, amet, incidunt laborum maxime!
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Technology </h4>
+                            <span>2017-2020</span>
+                            <p class="timeline-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id tempore reiciendis, placeat
+                                facere sed vero? Commodi consequuntur error veniam, voluptatum cum ipsum pariatur
+                                dignissimos saepe consectetur, amet, incidunt laborum maxime!
+                            </p>
+                        </li>
+                    </ol>
+
+                </section>
+                <!--Skills section -->
+                <section class="skills">
+                    <h3 class="h3 skills-title"> My Skills</h3>
+                    <ul class="skills-list" "content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Design </h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%">
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">React JS</h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%">
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">SpringBoot </h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%">
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">MySQL</h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%">
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <!-- portfolio -->
+            <article class="portfolio" data-page="portfolio">
+                <header>
+
+                    <h2 class="h2 article-title">portfolio</h2>
+                </header>
+                <section class="projects">
+                    <ul class=" filter-list">
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>ALL
+
+                            </button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>Web Design
+
+                            </button>
+                        </li>
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>React.js Development
+
+                            </button>
+                        </li>
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>Backend Development
+
+                            </button>
+                        </li>
+
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+                            <div class="Select-icon">
+                                <ion-icon name="chevron-down">
+                                </ion-icon>
+                            </div>
+                        </button>
+                        <ul class="select-list">
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Web Design</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>React.js Development</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Backend Development</button>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-catagore="Web Design">
+                            <a href="">
+                                <figure class="project-image">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project.1.1.png" alt="" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Landing-page</h3>
+                                <p class="project-category">Web development</p>
+                            </a>
+
+                        </li>
+                        <li class="project-item active" data-filter-item data-catagore="ReactJS">
+                            <a href="">
+                                <figure class="project-image">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project.1.1.png" alt="" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Landing-page</h3>
+                                <p class="project-category">Web development</p>
+                            </a>
+
+                        </li>
+                        <li class="project-item active" data-filter-item data-catagore="Backend Development">
+                            <a href="">
+                                <figure class="project-image">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project.1.1.png" alt="" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Landing-page</h3>
+                                <p class="project-category">Web development</p>
+                            </a>
+
+                        </li>
+                        <li class="project-item active" data-filter-item data-catagore="JavaScript Development">
+                            <a href="">
+                                <figure class="project-image">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project.1.1.png" alt="" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Landing-page</h3>
+                                <p class="project-category">Web development</p>
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+            <!-- BLOG -->
+            <article class="blog" data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+
+                </header>
+
+            </article>
+        </div>
+
+    </main>
+
+
+    <script src=" ./assets/js/script.js">
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- <script>
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                const latitude = position.coords.latitude;
+                const longitude = position.coords.longitude;
+                const locationLink = document.getElementById("locationLink");
+
+                // Create a Google Maps link with the current latitude and longitude
+                locationLink.href = `https://www.google.com/maps?q=${latitude},${longitude}`;
+                locationLink.innerText = "View My Location on Google Maps";
+            });
+        } else {
+            console.log("Geolocation is not supported by this browser.");
+        }
+    </script> -->
+
+</body>
+
+</html>
